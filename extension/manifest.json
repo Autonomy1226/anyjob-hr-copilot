@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "AnyJob HR Copilot",
+  "version": "0.1.0",
+  "description": "AI-powered HR assistant for resume parsing, candidate matching, and smart messaging",
+  "permissions": ["sidePanel", "storage", "activeTab", "scripting", "tabs"],
+  "host_permissions": [
+    "https://*.zhipin.com/*",
+    "https://*.liepin.com/*",
+    "https://*.zhaopin.com/*",
+    "http://localhost:*/*",
+    "http://127.0.0.1:*/*"
+  ],
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.zhipin.com/*",
+        "https://*.liepin.com/*",
+        "https://*.zhaopin.com/*",
+        "http://localhost:*/*",
+        "http://127.0.0.1:*/*"
+      ],
+      "js": ["content-script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "AnyJob HR Copilot"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

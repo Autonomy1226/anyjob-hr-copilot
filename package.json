@@ -1,0 +1,15 @@
+{
+  "name": "anyjob-hr-copilot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered HR Copilot browser extension for recruitment platforms",
+  "scripts": {
+    "dev:extension": "npm -w extension run dev",
+    "build:extension": "npm -w extension run build",
+    "dev:backend": "cd backend && uvicorn app.main:app --reload --port 8000",
+    "test": "npm -w extension run test"
+  },
+  "workspaces": [
+    "extension"
+  ]
+}

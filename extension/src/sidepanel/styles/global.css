@@ -1,0 +1,32 @@
+:root {
+  --aj-primary: #6366f1;
+  --aj-primary-dark: #4f46e5;
+  --aj-success: #10b981;
+  --aj-warning: #f59e0b;
+  --aj-danger: #ef4444;
+  --aj-bg: #f8fafc;
+  --aj-surface: #ffffff;
+  --aj-text: #1e293b;
+  --aj-text-secondary: #64748b;
+  --aj-border: #e2e8f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  color: var(--aj-text);
+  background: var(--aj-bg);
+  width: 400px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#app {
+  min-height: 100vh;
+}
