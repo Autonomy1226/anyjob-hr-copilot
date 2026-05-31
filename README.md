@@ -1,4 +1,8 @@
-#HR Copilot
+<div align="right">
+  <a href="./README_CN.md">🇨🇳 中文</a>
+</div>
+
+# HR Copilot
 
 AI-powered Chrome browser extension that integrates with recruitment platforms to provide **one-click resume parsing**, **candidate-job matching with radar visualization**, and **personalized outreach message generation** — all directly within the recruiter's existing workflow.
 

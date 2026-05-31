@@ -1,4 +1,8 @@
-# AnyJob HR Copilot
+<div align="right">
+  <a href="./README.md">🇬🇧 English</a>
+</div>
+
+# HR Copilot
 
 一款面向 HR 招聘场景的 AI Copilot 浏览器插件，集成在主流招聘平台中，提供 **一键简历解析**、**人岗匹配评估（含雷达图）**、**个性化沟通话术生成** 等 AI 辅助功能，大幅提升招聘效率。
 
