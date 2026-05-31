@@ -6,7 +6,7 @@
 
 AI-powered Chrome browser extension that integrates with recruitment platforms to provide **one-click resume parsing**, **candidate-job matching with radar visualization**, and **personalized outreach message generation** — all directly within the recruiter's existing workflow.
 
-Built for the AnyHelper (AnyChinaJob.com) AI Agent Frontend Developer Intern interview.
+
 
 ---
 
@@ -402,14 +402,6 @@ export class NewSiteAdapter extends BaseSiteAdapter {
 
 ---
 
-## Interview Talking Points
-
-- **Architecture**: Three-layer communication (Content Script → Service Worker → Side Panel) with typed message passing
-- **Site Adapter pattern**: Open-closed principle — add platforms without modifying existing code
-- **Prompt engineering**: Iteratively optimized LLM prompts for >90% extraction accuracy
-- **Shadow DOM isolation**: Floating button styles don't leak into host pages
-- **Mock mode**: `sk-test-` prefix triggers offline demo mode with built-in data — demonstrates testing strategy
-- **Modular design**: Each AI capability (parse/match/message) is an independent service with own prompt templates
 
 ---
 

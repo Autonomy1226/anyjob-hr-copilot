@@ -6,7 +6,7 @@
 
 一款面向 HR 招聘场景的 AI Copilot 浏览器插件，集成在主流招聘平台中，提供 **一键简历解析**、**人岗匹配评估（含雷达图）**、**个性化沟通话术生成** 等 AI 辅助功能，大幅提升招聘效率。
 
-本项目为 AnyHelper（AnyChinaJob.com）AI Agent 前端开发实习生面试作品。
+
 
 ---
 
@@ -400,15 +400,6 @@ export class NewSiteAdapter extends BaseSiteAdapter {
 ```
 
 ---
-
-## 面试展示要点
-
-- **架构设计**：Content Script → Service Worker → Side Panel 三层通信，消息类型安全
-- **设计模式**：Site Adapter 符合开闭原则，新增平台不改现有代码
-- **提示词工程**：迭代优化 LLM 提示词，解析准确率 90%+
-- **样式隔离**：Shadow DOM 确保插件样式不污染宿主页面
-- **Mock 模式**：`sk-test-` 前缀自动切换离线演示，体现测试策略
-- **模块化设计**：每个 AI 能力（解析/匹配/话术）独立服务 + 独立提示词模板
 
 ---
 
